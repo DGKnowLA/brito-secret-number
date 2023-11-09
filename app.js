@@ -11,7 +11,7 @@ function textoExibidoNaTela(tag, texto) {
 
 function modeloJogoInicial() {
   numeroSecreto = gerarNumeroAleatorio();
-  textoExibidoNaTela("h1", "Brito Game Secret Number");
+  textoExibidoNaTela("h1", "Brito Secret Number");
   textoExibidoNaTela("p", `Escolha um numero de 1 a ${numerosMaximos}`);
   tentativas = 1;
 }
