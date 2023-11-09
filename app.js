@@ -43,7 +43,7 @@ function verificarChute() {
 }
 
 function gerarNumeroAleatorio() {
-  let numeroEscolhido = parseInt(Math.random() * 10 + 1);
+  let numeroEscolhido = parseInt(Math.random() * numerosMaximos + 1);
   let quantidadeDeElementosNaList = listaDeNumerosSorteados.length;
 
   if (quantidadeDeElementosNaList == 2) {
